@@ -33,12 +33,26 @@ review results, save analysis history, and download PDF reports.
     configuration.
 -   **Responsive UI** --- Modern medical-AI interface with light/dark
     theme support.
+## AI Model
 
+The project uses a custom-trained YOLO26m model for kidney stone detection.
+
+### Training Configuration
+
+- **Model:** YOLO26m
+- **Epochs:** 100 maximum
+- **Training Completed:** Epoch 82
+- **Image Size:** 896 × 896
+- **Batch Size:** 8
+- **Confidence Threshold:** 0.25
+- **Patience:** 20
+- **GPU:** CUDA when available, otherwise CPU
+- 
 ## Tech Stack
 
 -   **Frontend:** React, TypeScript, Vite, Tailwind CSS
 -   **Backend:** Python, Flask, Flask-CORS
--   **AI:** Ultralytics YOLO
+-   **AI:** Ultralytics YOLO26m
 -   **Image Processing:** OpenCV, NumPy
 -   **Database:** SQLite
 -   **Reports:** ReportLab
