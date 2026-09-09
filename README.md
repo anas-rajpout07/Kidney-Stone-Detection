@@ -5,13 +5,12 @@ A web-based **AI-assisted kidney stone detection system** built with
 allows users to upload CT scan images, detect possible kidney stones,
 review results, save analysis history, and download PDF reports.
 
+## FRONTEND
+![KidneyAI Screenshot](./FrontEnd.png)
+
 ## Workflow
 
 ![KidneyAI Workflow](./KidneyAIWorkflow.png)
-
-
-## FRONTEND
-![KidneyAI Screenshot](./FrontEnd.png)
 
 ## Overview
 
