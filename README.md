@@ -7,7 +7,7 @@ review results, save analysis history, and download PDF reports.
 
 ## Workflow
 
-![KidneyAI Workflow](./workflow.png)
+![KidneyAI Workflow](./KidneyAIWorkflow.png)
 
 ![KidneyAI Screenshot](./FrontEnd.png)
 
